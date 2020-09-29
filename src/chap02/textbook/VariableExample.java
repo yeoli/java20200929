@@ -1,4 +1,4 @@
-package chap02.type;
+package chap02.textbook;
 
 public class VariableExample {
 
