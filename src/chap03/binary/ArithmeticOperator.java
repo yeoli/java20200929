@@ -1,13 +1,12 @@
-package chap02.textbook;
+package chap03.binary;
 
-public class VariableExample {
+public class ArithmeticOperator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hela");
+		//+ - * / %
 		
-
-
+		
 	}
 
 }
