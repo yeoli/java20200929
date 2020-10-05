@@ -24,6 +24,7 @@ public class CharType {
 		
 		charValue = '\uac00';
 		System.out.println(charValue);
+
 	}
 
 }

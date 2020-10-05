@@ -6,11 +6,16 @@ public class BooleanType {
 		// TODO Auto-generated method stub
 		//boolean : 1byte
 		//true, false
-		
+		s
 		boolean boolValue = true;
 		boolValue = false;
 		
 		System.out.println(boolValue);
+		
+		byte byteValue = 10;
+		char charValue = 'A';
+		
+		short shortValue = charValue;
 
 	}
 
