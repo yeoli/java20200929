@@ -60,6 +60,8 @@ public class StringEx1 {
 		String t = str12.trim();
 		System.out.println(t);
 		System.out.println(str12);
+		
+		
 	}
 
 }
