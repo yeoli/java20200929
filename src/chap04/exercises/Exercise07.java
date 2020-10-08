@@ -46,25 +46,45 @@ public class Exercise07 {
 			
 			//wrapper class : int num = Integer.valueOf(line);
 			
-			String line = scanner.nextLine();
-			int num = Integer.valueOf(line);
+//			String line = scanner.nextLine();
+//			int num = Integer.valueOf(line);
+//			
+//			if(num == 1){
+//				System.out.print("예금액> ");
+//				balance += Integer.valueOf(scanner.nextLine());
+//			}else if(num == 2){
+//				System.out.print("출금액> ");
+//				balance -= Integer.valueOf(scanner.nextLine());
+//			}else if(num == 3) {
+//				System.out.print("잔고> ");
+//				System.out.println(balance);
+//			}else
+//				run = false;
 			
-			if(num == 1){
-				System.out.print("예금액> ");
-				balance += Integer.valueOf(scanner.nextLine());
-			}else if(num == 2){
-				System.out.print("출금액> ");
-				balance -= Integer.valueOf(scanner.nextLine());
-			}else if(num == 3) {
-				System.out.print("잔고> ");
-				System.out.println(balance);
-			}else
+			String s = scanner.nextLine();
+			
+			switch(s) {
+			case "1":
+				System.out.println("예금액> ");
+				String moneyStr1 = scanner.nextLine();
+				int money1 = Integer.valueOf(moneyStr1);
+				balance += money1;
+				break;
+			case "2":
+				System.out.println("출금액> ");
+				String moneyStr2 = scanner.nextLine();
+				int money2 = Integer.valueOf(moneyStr2);
+				balance -= money2;
+			case "3":
+				System.out.println("잔고> " + balance);
+				break;
+			case "4":
 				run = false;
-						
-			
+				break;
+			}
 		}
 		
-		System.out.println("프로그램 종료");
+    	System.out.println("프로그램 종료");
 	}
 
 }
