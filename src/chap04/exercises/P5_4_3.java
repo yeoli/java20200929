@@ -16,6 +16,17 @@ public class P5_4_3 {
 		
 		System.out.println(sum);
 		
+//		int num = 1, sum = 0;
+//		
+//		while(num<=100) {
+//			if(num%2==0 && num%7==0) {
+//				System.out.println(num);
+//				sum += num;
+//			}
+//			num++;
+//		}
+//		
+//		System.out.println(sum);
 
 	}
 
