@@ -12,6 +12,17 @@ public class Exercise08 {
 		
 		int sum = 0;
 		double avg = 0.0;
+		int n = 0;
+		
+		for(int i = 0; i<array.length; i++) {
+			for(int j = 0; j<array[i].length; j++) {
+				sum += array[i][j];
+				n = n + 1;
+				
+			}
+		}
+		
+		avg = (double) sum / n;
 		
 		
 		System.out.println("sum: " + sum);

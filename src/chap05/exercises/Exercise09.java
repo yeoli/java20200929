@@ -9,6 +9,8 @@ public class Exercise09 {
 //		System.out.println("입력> ");
 //		String str = scanner.nextLine();
 //		int val = Integer.valueOf(str);
+//		String str = scanner.nextLine();
+//		double val = Double.valueOf(str);
 //		
 //		System.out.println("출력> ");
 //		System.out.println(str);
