@@ -11,7 +11,7 @@ public class Car {
 	}
 	
 	Car(String model) {
-		this(model, "은색", 250);
+		this(model, "은색s");
 	}
 	
 	Car(String model, String color) {

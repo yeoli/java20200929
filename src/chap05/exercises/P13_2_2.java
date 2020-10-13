@@ -9,16 +9,21 @@ public class P13_2_2 {
 				{4,5,6},
 				{7,8,9}
 		};
-		
-		for(int i=0; i<arr.length; i++) {
-			for(int j=arr.length; j<0; j--) {
-				System.out.println(arr[i][j]);
-			}
-		}
-		
+
 
 	}
 	
+	public static void shiftTwoDArr(int[][] arr) {
+		int[] lastLow = arr[arr.length-1];
+		for(int low=arr.length-1; low>0; low--) 
+			arr[low] = arr[low-1];
+		
+		arr[0]=lastLow;
+	}
+	
+	public static void showTowDArr(int[][] arr) {
+	
+	}
 	
 
 }

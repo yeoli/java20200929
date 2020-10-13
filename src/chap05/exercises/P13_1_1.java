@@ -27,8 +27,13 @@ public class P13_1_1 {
 	
 	public static int minValue(int[] arr) {
 		int min = arr[0];
-		for(int i=0; i<arr.length; i++) {
-			min = (min < arr[i]) ? min : arr[i];  
+//		for(int i=0; i<arr.length; i++) {
+//			min = (min < arr[i]) ? min : arr[i];  
+//		}
+		
+		for(int e : arr) {
+			if(min>e)
+				min = e;
 		}
 		
 		return min;
@@ -37,8 +42,13 @@ public class P13_1_1 {
 	
 	public static int maxValue(int[] arr) {
 		int max = 0;
-		for(int i=0; i<arr.length; i++) {
-			max = (max > arr[i]) ? max : arr[i];  
+//		for(int i=0; i<arr.length; i++) {
+//			max = (max > arr[i]) ? max : arr[i];  
+//		}
+		
+		for(int e : arr) {
+			if(max<e)
+				max = e;
 		}
 		
 		return max;
