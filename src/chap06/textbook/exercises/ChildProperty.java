@@ -1,31 +1,30 @@
 package chap06.textbook.exercises;
 
 public class ChildProperty {
-	int numOfBead;
+	int Bead;
 	
-	ChildProperty(int numOfBead) {
-		this.numOfBead = numOfBead;
+	ChildProperty(int Bead) {
+		this.Bead = Bead;
 	}
 	
 	void obtainBead(ChildProperty child, int obtainCount) {
 		int obtainBeadCount = child.loseBead(obtainCount);
-		numOfBead += obtainBeadCount;
+		Bead += obtainBeadCount;
 		
 	}
 	
 	int loseBead(int loseCount) {
-		
-		if(numOfBead<loseCount) {
-			int retValue = numOfBead;
-			numOfBead = 0;
+		if(Bead<loseCount) {
+			int retValue = Bead;
+			Bead = 0;
 			return retValue;
 		}
 		
-		numOfBead -= loseCount;
+		Bead -= loseCount;
 		return loseCount;
 	}
 	
 	void haveBead() {
-		System.out.println(numOfBead);
+		System.out.println(Bead);
 	}
 }
