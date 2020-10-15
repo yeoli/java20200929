@@ -1,5 +1,6 @@
 package chap07.textbook.s070402;
 
+
 public class SupersonicAirPlane extends Airplane{
 	public static final int NORMAL = 1;
 	public static final int SUPERSONIC = 2;
