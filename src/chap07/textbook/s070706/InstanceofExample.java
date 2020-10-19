@@ -2,7 +2,7 @@ package chap07.textbook.s070706;
 
 public class InstanceofExample {
 	public static void method1(Parent parent) {
-		if(parent instanceof Child) { // parent가 child로 형변환 가능하냐 가 아니고 parent가 참조하는 인스턴스가 child이거나 child를 상속하는 인스턴스 라는 뜻!!
+		if(parent instanceof Child) { // parent가 child로 형변환 가능하냐 가 아니고 parent가 참조하는 인스턴스가 child이거나 child를 상속하는 인스턴스냐 라는 뜻!!
 			Child child = (Child) parent;
 			System.out.println("method1 - Child로 변환 성공");
 		}else {
