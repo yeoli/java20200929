@@ -4,7 +4,7 @@ public class ArrayCreateByValueListExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] scores = {83, 90, 87};
+		int[] scores = {83, 90, 87}; 
 		
 		System.out.println("scores[0] : " +scores[0]);
 		System.out.println("scores[1] : " +scores[1]);
