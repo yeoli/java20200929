@@ -14,7 +14,7 @@ public class RemoteControlExample {
 			@Override
 			public void turnOn() {
 				// TODO Auto-generated method stub
-				
+				System.out.println("dfa");
 			}
 			
 			@Override
@@ -24,5 +24,7 @@ public class RemoteControlExample {
 			}
 		
 		};
+		
+		rc.turnOn();
 	}
 }
